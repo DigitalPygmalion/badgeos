@@ -1,28 +1,25 @@
 {
-  "name": "DigitalPygmalion/badgeos",
+  "name": "BadgeOS",
   "version": "1.4.0",
   "description": "BadgeOS lets your site’s users complete tasks and earn badges that recognize their achievement.  Define achievements and choose from a range of options that determine when they're complete.",
-  "type": "wordpress-plugin",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DigitalPygmalion/badgeos.git"
+  },
   "keywords": [
-    "badgeos",
-    "gravityforms",
-    "buddypress",
     "wordpress"
   ],
-  "homepage": "https://github.com/DigitalPygmalion/badgeos",
+  "author": "LearningTimes",
   "license": "GNU AGPL",
-  "authors": [
-    {
-      "name": "LearningTimes"
-    },
-    {
-      "name": "ctrlweb",
-      "homepage": "https://ctrlweb.ca/"
-    }
-  ],
-  "support": {
-    "issues": "https://github.com/DigitalPygmalion/badgeos/issues",
-    "wiki": "https://github.com/DigitalPygmalion/badgeos/wiki"
+  "bugs": {
+    "url": "https://github.com/DigitalPygmalion/badgeos/issues"
   },
   "devDependencies": {
     "grunt-phpunit": "~0.3.3",
