@@ -1,0 +1,30 @@
+{
+  "name": "DigitalPygmalion/badgeos",
+  "description": "",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "badgeos",
+    "gravityforms",
+    "buddypress",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/DigitalPygmalion/badgeos",
+  "license": "GNU AGPL",
+  "authors": [
+    {
+      "name": "LearningTimes"
+    },
+    {
+      "name": "ctrlweb",
+      "homepage": "https://ctrlweb.ca/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/DigitalPygmalion/badgeos/issues",
+    "wiki": "https://github.com/DigitalPygmalion/badgeos/wiki"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.6"
+  }
+}
